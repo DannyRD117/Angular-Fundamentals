@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'Angular-Fundamentals';
+  title: string = 'Conter App';
+  number: number = 10;
+  base: number = 5;
+
+  acumulate ( value:number ):void{
+    this.number += value;
+  }
 }
