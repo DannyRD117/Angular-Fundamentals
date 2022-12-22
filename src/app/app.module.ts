@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
+import { ListComponent } from './heroes/list/list.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { HeroeComponent } from './heroes/heroe/heroe.component';
     AppComponent,
     CounterComponent,
     HeroeComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule
